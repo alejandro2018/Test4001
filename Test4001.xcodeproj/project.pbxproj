@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		895C69AB2AC0D2A1008C81C7 /* Test4001App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895C69AA2AC0D2A1008C81C7 /* Test4001App.swift */; };
 		895C69AD2AC0D2A1008C81C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895C69AC2AC0D2A1008C81C7 /* ContentView.swift */; };
-		895C69AF2AC0D2A1008C81C7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895C69AE2AC0D2A1008C81C7 /* Item.swift */; };
 		895C69B12AC0D2A3008C81C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895C69B02AC0D2A3008C81C7 /* Assets.xcassets */; };
 		895C69B42AC0D2A3008C81C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895C69B32AC0D2A3008C81C7 /* Preview Assets.xcassets */; };
 		895C69BF2AC0D379008C81C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 895C69BE2AC0D379008C81C7 /* GoogleService-Info.plist */; };
@@ -28,7 +27,6 @@
 		895C69A72AC0D2A1008C81C7 /* Test4001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test4001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		895C69AA2AC0D2A1008C81C7 /* Test4001App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test4001App.swift; sourceTree = "<group>"; };
 		895C69AC2AC0D2A1008C81C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		895C69AE2AC0D2A1008C81C7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		895C69B02AC0D2A3008C81C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		895C69B32AC0D2A3008C81C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		895C69BE2AC0D379008C81C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -76,7 +74,6 @@
 				895C69BA2AC0D317008C81C7 /* Test01 */,
 				895C69AA2AC0D2A1008C81C7 /* Test4001App.swift */,
 				895C69AC2AC0D2A1008C81C7 /* ContentView.swift */,
-				895C69AE2AC0D2A1008C81C7 /* Item.swift */,
 				895C69B02AC0D2A3008C81C7 /* Assets.xcassets */,
 				895C69BE2AC0D379008C81C7 /* GoogleService-Info.plist */,
 				895C69B22AC0D2A3008C81C7 /* Preview Content */,
@@ -210,7 +207,6 @@
 			files = (
 				895C69AD2AC0D2A1008C81C7 /* ContentView.swift in Sources */,
 				895C69FE2AC0D513008C81C7 /* DetailsView.swift in Sources */,
-				895C69AF2AC0D2A1008C81C7 /* Item.swift in Sources */,
 				895C6A002AC0D524008C81C7 /* ViewModelOne.swift in Sources */,
 				895C69F82AC0D4D6008C81C7 /* OneNameView.swift in Sources */,
 				895C6A022AC0D52C008C81C7 /* One.swift in Sources */,
