@@ -6,8 +6,6 @@
 //
 
 import Foundation
-
-import Foundation
 import FirebaseFirestore
 import FirebaseFirestoreSwift
 import Observation
@@ -21,6 +19,7 @@ class ViewModelOne {
         
         let db = Firestore.firestore()
         let collectionRef = db.collection("test01")
+            
             
         collectionRef.getDocuments { (snap, err) in
             

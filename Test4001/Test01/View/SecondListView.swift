@@ -10,6 +10,7 @@ import FirebaseFirestore
 
 struct SecondListView: View {
     
+    //var valor: String
     @State var search = ""
     @Environment(ViewModelOne.self) private var data
     
@@ -21,7 +22,10 @@ struct SecondListView: View {
                     }
                 }
             }
-            .onAppear(perform: self.data.getdata)
+            .task {
+                data.datas = [] 
+                data.getdata()
+            }
             .navigationTitle("Prueba Search")
             .searchable(text: $search)
             .textInputAutocapitalization(.never)
