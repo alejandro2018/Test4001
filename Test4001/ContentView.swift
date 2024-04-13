@@ -12,7 +12,7 @@ struct ContentView: View {
 
     var body: some View {
        
-                        Text("Item at")
+        Text("Item at")
     }
 }
 
